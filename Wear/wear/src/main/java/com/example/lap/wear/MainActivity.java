@@ -34,6 +34,7 @@ public class MainActivity extends Activity {
     private static final SimpleDateFormat sdf = new SimpleDateFormat("yy_MM_dd_HH_mm_ss");
 
     private Button startButton, stopButton;
+    private Button normalStart;
     private Button show;
     private TextView text;
 
@@ -85,6 +86,7 @@ public class MainActivity extends Activity {
 
 
         startButton = (Button) findViewById(R.id.startAccSensorButton);
+        normalStart=(Button) findViewById(R.id.normalstartAccSensorButton);
         stopButton = (Button) findViewById(R.id.stopAccSensorButton);
 
         text = (TextView)findViewById(R.id.textview);
@@ -172,6 +174,21 @@ public class MainActivity extends Activity {
         Toast.makeText(this, "start sensor/audio logging", Toast.LENGTH_SHORT).show();
         SensorLoggingService.instance().startLogging(timeString);
         startButton.setEnabled(false);
+        normalStart.setEnabled(false);
+        stopButton.setEnabled(true);
+
+        String path="/sendmessage";
+        String message="start recording";
+        sendmessage(path,message);
+    }
+
+
+    public void normalstartAcc(View view){
+        String timeString = sdf.format(new Date());
+        Toast.makeText(this, "start sensor/audio logging", Toast.LENGTH_SHORT).show();
+        SensorLoggingService.instance().startLogging(timeString);
+        startButton.setEnabled(false);
+        normalStart.setEnabled(false);
         stopButton.setEnabled(true);
 
         String path="/sendmessage";
@@ -190,6 +207,7 @@ public class MainActivity extends Activity {
             e.printStackTrace();
         }
         startButton.setEnabled(true);
+        normalStart.setEnabled(true);
         stopButton.setEnabled(false);
 
         String path="/stopmessage";
