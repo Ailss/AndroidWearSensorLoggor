@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/libs/internal_impl-21.0.0.jar"
+        jar="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
-        <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-d28aa3ceedb82661ccc60a02524fddb235d14975.jar" />
-    </item>
-    <item
-        jar="/Users/ly/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
-        <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-0a47af62f94825334420be14c681edbfc97a8c45.jar" />
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/classes-77d07e6f1df999f2fb8082c231c06271e7696ce1.jar" />
     </item>
     <item
         jar="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.1.0/jars/classes.jar"
@@ -23,11 +16,18 @@
         <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/classes-381a7c677bf6b5cbaa412e7a31923f292648937c.jar" />
     </item>
     <item
-        jar="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/jars/classes.jar"
+        jar="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/5.0.77/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
-        <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/classes-77d07e6f1df999f2fb8082c231c06271e7696ce1.jar" />
+        sha1="80a6f6f2d0dfcfae8c424cf81dcdf7157e7bf4b8">
+        <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/classes-47c67f796ed113596d4a93bae982599e6c0c569b.jar" />
+    </item>
+    <item
+        jar="/Users/ly/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-0a47af62f94825334420be14c681edbfc97a8c45.jar" />
     </item>
     <item
         jar="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/classes.jar"
@@ -37,11 +37,11 @@
         <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/classes-8a3b4e94290ef4ae9709e6bd8e7a36880aac5191.jar" />
     </item>
     <item
-        jar="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/5.0.77/jars/classes.jar"
+        jar="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/libs/internal_impl-21.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="80a6f6f2d0dfcfae8c424cf81dcdf7157e7bf4b8">
-        <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/classes-47c67f796ed113596d4a93bae982599e6c0c569b.jar" />
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/ly/AndroidStudioProjects/Wear/wear/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-d28aa3ceedb82661ccc60a02524fddb235d14975.jar" />
     </item>
 
 </items>

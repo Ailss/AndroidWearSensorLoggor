@@ -48,8 +48,11 @@ public class SensorLoggingAsyncTask extends AsyncTask<Object, Long, Boolean> {
 //                        }
                         //sb.append(quat).append(" ");
                         break;
-                    case Sensor.TYPE_GYROSCOPE_UNCALIBRATED:
+                    //case Sensor.TYPE_GYROSCOPE_UNCALIBRATED:
+                    case Sensor.TYPE_GYROSCOPE:
                         sb.append("gyro").append(" ");
+                        //Log.v("debug_","gyro");
+                        //Log.v("debug_",sb.toString());
                         break;
                     case Sensor.TYPE_ORIENTATION:
                         sb.append("ori").append(" ");
